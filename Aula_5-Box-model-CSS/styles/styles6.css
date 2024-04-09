@@ -1,3 +1,8 @@
+/*
+    em - varia de acordo com o elemento pai 
+    rem - basea-se na root(raiz) da pagina(body)
+*/
+
 .um-em{
     font-size: 1em;
 }

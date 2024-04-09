@@ -1,5 +1,40 @@
-p{
-    border: 5px solid #0000FF;
+h1{
+    box-shadow: 5px 4px 3px #12121250;
+    text-align: center;
+}
+
+.p1{
+    border: 5px solid #052659;
     width: 200px;
-    height: 200px;;
+    height: 200px;
+    padding: 10px 5px;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.p2{
+    border: 5px dashed #052659;
+    width: 200px;
+    height: 200px;
+    padding: 10px 5px;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+figure{
+    border: solid 3px #0d1d25;
+    width: 200px;
+    margin: 15px auto;
+}
+
+img{
+    border: #d59d80 3px solid;
+    width: 150px;
+
+    /* para margin auto funcionar precisa ser com display: block*/
+    display: block;
+    margin: auto;
+}
+
+figcaption{
+    text-align: center;
 }
