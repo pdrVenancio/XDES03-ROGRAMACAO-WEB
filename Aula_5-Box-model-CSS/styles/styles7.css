@@ -5,3 +5,14 @@ div{
     background-color: yellowgreen;
     display: inline-block;
 }
+
+/*
+Posição 
+ - absoluta passa o elemento para uma camada superior
+ - relativo vc consegue deslocar o elemento a partir da posição que ele ja esta naturalmente
+ - sticky melhor q o fixed impreção de grudar 
+*/
+#d2{
+    position: relative;
+   
+}
