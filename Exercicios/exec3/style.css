@@ -1,0 +1,91 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Montserrat';
+    background-color: #cdd5db;
+}
+
+.navegation{
+    background-color: #071739;
+    position: sticky;
+    top: 0px;
+}
+
+.navegation .navegation-list{
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+.navegation .navegation-list .navegation-list-item{
+    display: inline-block;
+    padding: 10px 10px;
+}
+
+.navegation .navegation-list .navegation-list-item a{
+    text-decoration: none;
+    color: #cdd5db;
+}
+
+.title{
+    text-align: center;
+    color: #071739;
+}
+
+.secao-login{
+    border: solid 3px #071739;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px #071739;
+    margin: 10px auto;
+    padding: 10px;
+    width: 30em;
+}
+.secao-login #p-login{
+    text-decoration: underline;
+    display: inline;
+    color: #071739;
+}
+
+.secao-login form button:hover{
+    background-color: #071739;
+    box-shadow: 0px 3px 5px #4b6382;
+    color: #cdd5db;
+    
+}
+
+.secao-login form button{
+    border-radius: 20px;
+    border: solid 4px #071739;
+    color: #071739;
+    font-weight: 900;
+    background-color: #cdd5db;
+    margin: 30px auto;
+    width: 200px;
+
+}
+.secao-login form *{
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    padding: 10px;
+    color: #071739;
+}
+
+.secao-login form input{
+    width: 25em;
+    border-radius: 10px;
+    background-color: #4b6382; 
+    color: #cdd5db;
+    padding: 10px;
+    border: none; 
+    outline: none; 
+}
+
+.secao-login form input::placeholder{
+    color: #cdd5db;
+    text-align: left;
+}
+.create-accont p{
+    text-align: center;
+    color: #071739;
+}
