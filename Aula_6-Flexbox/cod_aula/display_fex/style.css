@@ -1,0 +1,42 @@
+section{
+    border: 3px solid black;
+    width: 90%;
+    height: 50vh;
+    margin: 0 auto;
+    /* Tratado na aula */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*
+    flex-wrap: wrap;
+    align-content: center;
+    */
+    align-items: center;
+
+}
+
+div{
+    color: white;
+    font-size: 2rem;
+    width: 150px;
+    height: 150px;
+}
+
+#div1{
+    background-color: rgb(83, 83, 213);
+}
+
+#div2{
+    background-color: rgb(109, 29, 184);
+}
+
+#div3{
+    background-color: rgb(85, 85, 182);
+}
+
+#div4{
+    background-color: rgb(18, 18, 141);
+}
+#div5{
+    background-color: rgb(2, 2, 23);
+}

@@ -26,6 +26,9 @@ body{
     text-decoration: none;
     color: #cdd5db;
 }
+.navegation .navegation-list .navegation-list-item a:hover{
+    color: #E3C39D;
+}
 
 .title{
     text-align: center;
@@ -49,8 +52,7 @@ body{
 .secao-login form button:hover{
     background-color: #071739;
     box-shadow: 0px 3px 5px #4b6382;
-    color: #cdd5db;
-    
+    color: #E3C39D;   
 }
 
 .secao-login form button{
@@ -61,8 +63,8 @@ body{
     background-color: #cdd5db;
     margin: 30px auto;
     width: 200px;
-
 }
+
 .secao-login form *{
     display: block;
     text-align: center;
@@ -72,19 +74,27 @@ body{
 }
 
 .secao-login form input{
-    width: 25em;
-    border-radius: 10px;
-    background-color: #4b6382; 
-    color: #cdd5db;
+    width: 24em;
+    text-align: left;
+    border: 0px; 
+    border-bottom: 2px solid #071739;
+    background-color: #cdd5db; 
+    color: #071739;
     padding: 10px;
-    border: none; 
     outline: none; 
 }
 
+.secao-login form input:focus{
+    border: 2px solid #071739;
+    border-radius: 10px;
+    width: 25em;
+}
+
 .secao-login form input::placeholder{
-    color: #cdd5db;
+    color: #4b6382;
     text-align: left;
 }
+
 .create-accont p{
     text-align: center;
     color: #071739;
