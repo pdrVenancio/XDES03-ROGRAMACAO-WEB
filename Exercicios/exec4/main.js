@@ -10,6 +10,8 @@ const resultado = document.querySelector('#idAreaResp')
 let resposta
 
 btnGera.addEventListener('click', () => {
+    resultado.innerText = ''
+
     const n1 = getRandom(10)
     const n2 = getRandom(10)
     const operacoes = ['*', '+', '-']
