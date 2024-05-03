@@ -28,7 +28,9 @@ h1{
 .hidden{
     border: 1px  dashed #000;
     border-radius: 10px;
-    width: 7em;
+    width: 8em;
+    min-height: 1em;
+    font-size: 2em;
     margin-bottom: 10px;
     text-align: center; 
 }
@@ -45,7 +47,8 @@ h1{
     justify-content: center;
 }
 
-.game-resposta label{
-    margin-right: 5px;
+.game-resposta input{
+    margin-left: 5px;
+    border-radius: 10px;
 }
 
