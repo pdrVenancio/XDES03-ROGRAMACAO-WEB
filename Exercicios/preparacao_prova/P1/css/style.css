@@ -1,0 +1,18 @@
+h1{
+    text-align: center;
+}
+.main{
+    border: 1px black solid;
+    border-radius: 10px;
+    display:flex;
+    margin: 10px auto;
+    width: 52em;
+}
+
+img{
+    border-radius: 10px;
+}
+
+#resp{
+    text-align: center;
+}
