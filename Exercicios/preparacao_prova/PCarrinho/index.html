@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Carrinho de compra</title>
+</head>
+<body>
+    <main>
+        <h1>Carrinho de compra Magico</h1>
+        <figure>
+            <img src="https://media.istockphoto.com/id/1206806317/pt/vetorial/shopping-cart-icon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=cl3NPzmnu0pRmaRGndYIejbHGe-atORf0JDjzmhX8Z8=" alt="Carrinho de compra">
+        </figure>
+        
+        <form class="cadastro">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            
+            <label for="qtd">Quantidade</label>
+            <select name="" id="qtd">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            
+            <button type="button" id="adicionar">Adicionar</button>
+        </form>
+
+        <section class="list">
+            <h2>Meus produtos</h2>
+            <ul id="prods"></ul>
+        </section>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
