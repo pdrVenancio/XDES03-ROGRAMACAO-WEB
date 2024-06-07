@@ -1,5 +1,7 @@
-export default function Saudacoes(){
+export default function Saudacoes({nome, idade}){
+    console.log(props)
+    
     return(
-        <p>Meu primeiro componente</p>
+        <h1>Ola bb {nome} vem sempre aqui comidade de {idade}</h1>
     )
 }
