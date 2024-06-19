@@ -1,8 +1,7 @@
 import axios from 'axios'
 import { useEffect, useState } from 'react'
 import Propriedade from './Propriedade';
-
-import {Link} from 'react-router-dom' //npm i react-router-dom
+import {Link} from 'react-router-dom'; //Lembrete npm install react-router-dom
 
 export default function ListaPropriedades() {
     
@@ -21,7 +20,7 @@ export default function ListaPropriedades() {
   
     return (
         <div>
-            <Link to="/adicionar-propriedade">Adicionar nova peopriedade</Link>
+            <Link to='/adicionar-propriedade'>Adicionar Nova Propriedade</Link>
             <table>
                 <thead>
                     <th>Nome</th>
@@ -36,5 +35,6 @@ export default function ListaPropriedades() {
                 </tbody>
             </table>
         </div>
+        
     )
 }

@@ -6,7 +6,6 @@ import './index.css'
 import {createBrowserRouter, RouterProvider} from 'react-router-dom'
 import AdicionarPropriedade from './componentes/AdicionarPropriedade.jsx'
 
-// Roteamento de paginas
 const routes = createBrowserRouter([
   {
     path: '/',
@@ -14,7 +13,7 @@ const routes = createBrowserRouter([
   },
   {
     path: '/adicionar-propriedade',
-    element: <AdicionarPropriedade />
+    element : <AdicionarPropriedade />
   }
 ]);
 

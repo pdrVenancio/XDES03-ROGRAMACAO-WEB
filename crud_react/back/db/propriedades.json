@@ -1,44 +1,74 @@
 [
-    {
-      "id": 129031,
-      "nome": "Pousada Maria da Fé",
-      "avaliacao": 4.9,
-      "preco": 150
-    },
-    {
-      "id": 129331,
-      "nome": "Casa da Montanha",
-      "avaliacao": 4.8,
-      "preco": 250
-    },
-    {
-      "id": 129033,
-      "nome": "Pousada Ar Puro",
-      "avaliacao": 4.9,
-      "preco": 120
-    },
-    {
-      "id": 129034,
-      "nome": "Hotel Vila Maria",
-      "avaliacao": 4.7,
-      "preco": 140
-    },
-    {
-      "id": 129035,
-      "nome": "Café e Sono",
-      "avaliacao": 4.69,
-      "preco": 96
-    },
-    {
-      "id": 1718235131089,
-      "nome": "Hotel Itajubá",
-      "avaliacao": "4.5",
-      "preco": "129.34"
-    },
-    {
-      "id": 1718323295064,
-      "nome": "Hotel de Carle",
-      "avaliacao": "4.99",
-      "preco": "345.60"
-    }
-  ]
+  {
+    "id": 129031,
+    "nome": "Pousada Maria da Fé",
+    "avaliacao": 4.9,
+    "preco": 150
+  },
+  {
+    "id": 129331,
+    "nome": "Casa da Montanha",
+    "avaliacao": 4.8,
+    "preco": 250
+  },
+  {
+    "id": 129033,
+    "nome": "Pousada Ar Puro",
+    "avaliacao": 4.9,
+    "preco": 120
+  },
+  {
+    "id": 129034,
+    "nome": "Hotel Vila Maria",
+    "avaliacao": 4.7,
+    "preco": 140
+  },
+  {
+    "id": 129035,
+    "nome": "Café e Sono",
+    "avaliacao": 4.69,
+    "preco": 96
+  },
+  {
+    "id": 1718235131089,
+    "nome": "Hotel Itajubá",
+    "avaliacao": "4.5",
+    "preco": "129.34"
+  },
+  {
+    "id": 1718323295064,
+    "nome": "Hotel de Carle",
+    "avaliacao": "4.99",
+    "preco": "345.60"
+  },
+  {
+    "id": 1718752471633,
+    "nome": "Hotel Paçoca",
+    "preco": "460.00",
+    "avaliacao": "5.00"
+  },
+  {
+    "id": 1718753053243,
+    "nome": "Hotel Watch",
+    "preco": "260",
+    "avaliacao": "3.4"
+  },
+  {
+    "id": 1718753267205,
+    "nome": "Hotel Star Wars",
+    "preco": "600.00",
+    "avaliacao": "5.00"
+  },
+  {
+    "id": 1718753311707,
+    "nome": "Hotel UNIFEI",
+    "preco": "750.00",
+    "avaliacao": "5.00"
+  },
+  {
+    "id": 1718837132361,
+    "nome": "Casa sa mae joana",
+    "preco": "4000",
+    "avaliacao": "3"
+  }
+]
